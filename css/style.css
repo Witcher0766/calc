@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #222f3e;
+    transition: all 0.3s;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    min-height: 60vh;
+    background-color: #8395a7;
+    border-radius: 5px;
+    transform: translateY(20%);
+    padding: 20px 2px 20px 2px;
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.main-container  h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+.row input {
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin: 0px 10px 0px 10px;
+    text-align: right;
+    font-size: 40px;
+    background-color: #c8d6e5;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+.button {
+    width: 5rem;
+    height: 4rem;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #222f3e;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    transition: 0.3s linear;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #576574;
+    color: #222f3e;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+@media screen and (max-width: 1230px){
+
+    
+.main-container {
+    padding: 0px 10px 0px 10px;
+
+}
+
+.button {
+    width: 4rem;
+    height: 4rem;
+}
+
+}
+
+@media screen and (max-width: 888px) {
+    
+    .main-container {
+        width: 50%;
+        padding-bottom: 10px;
+    }
+
+    .button{
+        width: 4rem;
+        height: 3rem;
+    }
+}
+
+@media screen and (max-width: 583px){
+    .main-container  h1{
+        font-size: 35px;
+        padding-top: 5px;
+    }
+    .main-container{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 382px){
+    .main-container {
+        width: 90%;
+    }
+
+}
+
+
+.btn-danger {
+    background-color: #e74c3c;
+}
+
+
+
+
+
+/* nav{
+    height: 7vh;
+    background-color: #bdc3c7;
+    display: flex;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+}
+nav p{
+    font-size: 36px;
+    margin-left: 20px;
+    color: black;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+} */
